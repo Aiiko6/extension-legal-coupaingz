@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Politique de confidentialité — [NOM_EXTENSION]</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:780px;margin:2rem auto;padding:0 1.25rem;line-height:1.65;color:#1a1a1a;background:#fafafa}
+    h1{border-bottom:2px solid #9146ff;padding-bottom:.5rem}
+    h2{margin-top:2rem;color:#9146ff}
+    table{width:100%;border-collapse:collapse;margin:1rem 0}
+    th,td{border:1px solid #ddd;padding:.6rem;text-align:left;vertical-align:top}
+    th{background:#f0e7ff}
+    footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85em;color:#666}
+  </style>
+</head>
+<body>
+
+<h1>Politique de confidentialité</h1>
+<p><strong>Extension :</strong> [NOM_EXTENSION]<br>
+<strong>Éditeur :</strong> [NOM_AUTEUR]<br>
+<strong>Contact RGPD / DPO :</strong> [EMAIL_CONTACT_PUBLIC]<br>
+<strong>Dernière mise à jour :</strong> [JJ/MM/AAAA]</p>
+
+<p>La présente politique décrit comment l'extension Twitch <strong>[NOM_EXTENSION]</strong> (ci-après « l'Extension ») collecte, utilise et protège vos données. Elle est conforme au <strong>Règlement Général sur la Protection des Données (RGPD — UE 2016/679)</strong>, à la loi française « Informatique et Libertés », et au <strong>Twitch Developer Services Agreement</strong>.</p>
+
+<h2>1. Responsable du traitement</h2>
+<p>[NOM_AUTEUR] — contact : <a href="mailto:[EMAIL_CONTACT_PUBLIC]">[EMAIL_CONTACT_PUBLIC]</a></p>
+
+<h2>2. Données collectées</h2>
+<table>
+  <thead>
+    <tr><th>Donnée</th><th>Finalité</th><th>Base légale</th><th>Durée de conservation</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Identifiant Twitch opaque (opaque user ID)</strong></td>
+      <td>Identifier le spectateur pour sauvegarder son inventaire et ses achats.</td>
+      <td>Exécution du service (art. 6.1.b RGPD)</td>
+      <td>Tant que l'extension est utilisée par l'utilisateur + 12 mois.</td>
+    </tr>
+    <tr>
+      <td><strong>Identifiant de chaîne (channel ID)</strong></td>
+      <td>Associer les données au bon contexte de stream.</td>
+      <td>Exécution du service</td>
+      <td>Durée du contrat avec le streamer.</td>
+    </tr>
+    <tr>
+      <td><strong>Historique d'achats Bits</strong></td>
+      <td>Délivrer les objets achetés et permettre leur affichage dans l'inventaire.</td>
+      <td>Exécution du service + obligation légale (comptabilité)</td>
+      <td>Maximum 13 mois (recommandation CNIL).</td>
+    </tr>
+    <tr>
+      <td><strong>Préférences de personnalisation</strong> (thème, options UI)</td>
+      <td>Restituer l'expérience choisie à chaque visite.</td>
+      <td>Intérêt légitime</td>
+      <td>Tant que l'utilisateur garde l'extension active.</td>
+    </tr>
+    <tr>
+      <td><strong>Logs techniques anonymisés</strong> (erreurs JS)</td>
+      <td>Maintenance et correction de bugs.</td>
+      <td>Intérêt légitime</td>
+      <td>30 jours maximum.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>3. Données NON collectées</h2>
+<p>L'Extension <strong>ne collecte jamais</strong> :</p>
+<ul>
+  <li>votre nom réel, adresse e-mail ou numéro de téléphone ;</li>
+  <li>votre adresse IP brute ou données de géolocalisation ;</li>
+  <li>vos identifiants d'autres plateformes ;</li>
+  <li>vos messages de chat Twitch ;</li>
+  <li>de données bancaires (les paiements sont gérés exclusivement par Twitch et ses prestataires).</li>
+</ul>
+
+<h2>4. Identifiant opaque vs réel</h2>
+<p>Twitch fournit par défaut un <strong>identifiant opaque</strong> qui ne permet pas de remonter à votre identité réelle. L'Extension utilise uniquement cet identifiant. Si l'Extension demande à terme l'autorisation d'accéder à votre <strong>identifiant Twitch réel</strong>, vous serez explicitement invité à donner votre consentement via la fenêtre prévue par Twitch, et pourrez le refuser à tout moment.</p>
+
+<h2>5. Cookies et stockage local</h2>
+<p>L'Extension peut utiliser le <code>localStorage</code> du navigateur pour conserver vos préférences d'affichage. Aucun cookie tiers de tracking publicitaire n'est utilisé.</p>
+
+<h2>6. Partage des données</h2>
+<p>Vos données <strong>ne sont jamais vendues, louées ou cédées à des tiers</strong>. Elles peuvent uniquement être transmises à :</p>
+<ul>
+  <li><strong>Twitch Interactive, Inc.</strong> dans le cadre du fonctionnement de la plateforme et des transactions Bits ;</li>
+  <li><strong>[NOM_HÉBERGEUR]</strong> (ex. : Cloudflare, OVH, AWS) pour l'hébergement technique des données ;</li>
+  <li>les autorités compétentes en cas d'obligation légale.</li>
+</ul>
+
+<h2>7. Transferts internationaux</h2>
+<p>Si des données sont stockées hors Union européenne, elles le sont uniquement chez des prestataires offrant un niveau de protection conforme au RGPD (clauses contractuelles types ou décision d'adéquation de la Commission européenne).</p>
+
+<h2>8. Sécurité</h2>
+<p>L'éditeur met en œuvre les mesures techniques et organisationnelles appropriées pour protéger vos données contre l'accès non autorisé, la perte ou la destruction : connexions HTTPS, accès restreint, sauvegardes chiffrées.</p>
+
+<h2>9. Vos droits (RGPD)</h2>
+<p>Conformément aux articles 15 à 22 du RGPD, vous disposez des droits suivants :</p>
+<ul>
+  <li><strong>Accès</strong> : obtenir la liste de vos données détenues par l'Extension ;</li>
+  <li><strong>Rectification</strong> : corriger une donnée inexacte ;</li>
+  <li><strong>Effacement</strong> (« droit à l'oubli ») : demander la suppression de vos données ;</li>
+  <li><strong>Limitation</strong> du traitement ;</li>
+  <li><strong>Opposition</strong> au traitement ;</li>
+  <li><strong>Portabilité</strong> : recevoir vos données dans un format structuré.</li>
+</ul>
+<p>Pour exercer ces droits, envoyez un e-mail à <a href="mailto:[EMAIL_CONTACT_PUBLIC]">[EMAIL_CONTACT_PUBLIC]</a> avec votre identifiant opaque Twitch. Une réponse vous sera apportée sous 30 jours maximum.</p>
+<p>Vous disposez également du droit d'introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a> (Commission Nationale de l'Informatique et des Libertés).</p>
+
+<h2>10. Mineurs</h2>
+<p>L'Extension est destinée à un public général. Conformément aux conditions de Twitch, l'utilisation est réservée aux personnes âgées de 13 ans et plus (16 ans dans certains pays de l'UE). L'éditeur ne collecte pas sciemment de données concernant des mineurs en deçà de cet âge.</p>
+
+<h2>11. Modifications de la politique</h2>
+<p>Cette politique peut être mise à jour. La date de dernière modification est indiquée en haut de la page. Les changements substantiels seront notifiés via l'Extension ou la page de présentation.</p>
+
+<h2>12. Contact</h2>
+<p>Pour toute question concernant vos données personnelles : <a href="mailto:[EMAIL_CONTACT_PUBLIC]">[EMAIL_CONTACT_PUBLIC]</a></p>
+
+<footer>
+  © [ANNÉE] [NOM_AUTEUR]. — Twitch est une marque déposée de Twitch Interactive, Inc. Cette extension n'est ni affiliée ni sponsorisée par Twitch.
+</footer>
+
+</body>
+</html>
